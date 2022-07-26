@@ -13,6 +13,7 @@ We need to identify the affected customers and notify Customer Support with the 
 * Use this command to run tests: `python unit-tests/csv-test.py`
 
 ## Expected Output
+
 A new .txt file should be created when the code is run to produce the list of affected customers with their relevant details. 
 
 <img width="628" alt="Screenshot 2022-07-26 at 12 23 03" src="https://user-images.githubusercontent.com/99498365/181014242-e0ff0356-b6fe-4318-88d9-eae6c9012118.png">
