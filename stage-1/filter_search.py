@@ -24,7 +24,7 @@ with open("stage-1/latest-customers-converted.csv", mode = 'r') as file:
     phone_number = lines[3]
     email = lines[4]
     if age >= '40' and age <= '59':
-      str = age + " " + name + " " + phone_number + " " + email + "\n"
+      str = "Age: " + age + " | " + name + " | " + phone_number + " | " + email + "\n"
       
       # write data into .txt file
       f = open("affected-customers.txt", "a")
