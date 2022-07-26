@@ -3,9 +3,14 @@
 # Name, phone number and email address
 
 # Python to read .txt file
-with open('stage-1/latest-customers.txt') as f:
-  contents = f.read()
-  print(contents)
 
+# x = open("stage-1/latest-customers.txt")
+# for line in x:
+#   if line[1] == '50':
+#     print(line)
+# print("Customers aged 40")
 
-# Python to write new .txt file using the search criteria
+# Now that the program is able to read the .txt file, I now need to write a function that filters the customers age
+
+import pandas
+
